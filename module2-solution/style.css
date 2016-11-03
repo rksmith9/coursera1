@@ -1,36 +1,41 @@
-<style>
-
 /********** Base styles **********/
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font size: 1em;
 }
+
 h1 {
   margin: 15px;
   text-align: center;
+  font-size: 1.75em;
 }
+
 p {
   overflow: auto;
   margin-top: 0px;
-  margin-left:5px;
-  margin-right: 5px;
-  width: 90%;
-  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
   padding: 5px;
 }
+
 h3 {
   border: 1px solid black;
   width: 100px;
-  height: 20%;
-  color: black;
   text-align: center;
   float: right;
   margin: -1px;
+  font-size: 1.25em;
 }
+
 div {
 	background-color: lightblue;
 }
+
+
+
 
 #a {
 	background-color: lightgreen;
@@ -42,12 +47,16 @@ div {
 	background-color: gray;
 }
 
+
+
+
 @media (min-width: 992px) {
   .large{
     float: left;
     border: 1px solid black;
-    width: 30%;
-    margin: 1.33%;
+    width: 31.33%;
+    margin:1%;
+    position:relative;
   }
 }
 
@@ -56,12 +65,13 @@ div {
     float: left;
     border: 1px solid black;
     margin: 1%;
+    position: relative;
   }
   .medium1 {
-    width: 47%;
+    width: 48%;
   }
   .medium2 {
-    width: 96%;
+    width: 98%;
   }
 }
 
@@ -69,8 +79,8 @@ div {
   .small{
     float: left;
     border: 1px solid black;
-    width: 95%;
-    margin: 20px;
+    width: 96%;
+    margin: 2%;
+    position: relative;
   }
 }
-</style>
