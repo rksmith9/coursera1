@@ -28,7 +28,19 @@ h3 {
   float: right;
   margin: -1px;
 }
+div {
+	background-color: lightblue;
+}
 
+#a {
+	background-color: lightgreen;
+}
+#b {
+	background-color: yellow;
+}
+#c {
+	background-color: gray;
+}
 
 /********** Large devices only **********/
 @media (min-width: 992px) {
@@ -48,10 +60,10 @@ h3 {
     margin: 1%;
   }
   .medium1 {
-    width: 40%;
+    width: 47%;
   }
   .medium2 {
-    width: 82%;
+    width: 96%;
   }
 }
 
